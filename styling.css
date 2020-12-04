@@ -1,0 +1,91 @@
+/* TABANG DUDA */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 85%;
+	background-color: navy;
+    margin: 0;
+	padding: 0; }
+
+#page {
+	width: 800px;
+	background-color: aqua;
+	margin: 10px auto;
+	border: 3px solid black;
+	padding: 110px;
+	/* margin-top: 80%; */
+}
+
+#banner {
+    margin-bottom: 1em;
+	height: 60px;
+	width:300px;
+	
+	
+ }
+
+#navigation {
+	margin-top: 1em;
+	height: 56px;
+	width: 560px;
+	background-color: white; }
+	
+#sidebar {
+	width: 150px;
+	height: 350px;
+	background-color: white;
+	margin-top:0%;
+	float: left;	
+}
+
+.main{
+	margin-left: 150px;
+	height: 100%;
+	top: 0px;	
+}
+
+
+.copyright {
+    font-size: 90%;
+    text-align: right; 
+	margin: 0; }
+	
+/* the styles for the table*/
+
+caption {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin-top: 25px;
+	margin-bottom: 10px;
+	font-size: 150%;
+	color: #4766B8; 
+;
+}
+
+td, th {
+	border: 1px solid black;
+	padding: .2em .7em;
+	font-size: 95%; 
+	align-items: top;
+}	
+	
+.alignRight {
+	text-align: right; 
+}
+
+
+
+
+
+
+
+
+.grid-container{
+	display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+p{
+	font-size: 15px;
+	text-align: right;
+	color:navy;
+}
